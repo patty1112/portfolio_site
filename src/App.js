@@ -10,12 +10,12 @@ const App = () => {
 
   return (
     <React.StrictMode>
-       <div class="navbar">
-       <div class="dropdown">
-          <button class="dropbtn"> Projects
-            <i class="fa fa-caret-down"></i>
+       <div className="navbar">
+       <div className="dropdown">
+          <button className="dropbtn"> Projects
+            <i className="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-content">
+          <div className="dropdown-content">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
