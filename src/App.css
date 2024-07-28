@@ -113,3 +113,9 @@ body {
 .topnav-right {
   float: right;
 }
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: #333;
+  color: white;
+}

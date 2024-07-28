@@ -4,7 +4,7 @@ import React from 'react';
 import Home from './Home'
 import About from './About'
 import Projects from './Projects'
-import { Link, Routes, Route } from 'react-router-dom'
+import { Link, Routes, Route, Outlet } from 'react-router-dom'
 
 const App = () => {
 
@@ -32,6 +32,12 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/projets" element={<Projects />} />
       </Routes>
+      <Outlet />
+      <footer>
+        <p>Created By: Patrick Maes</p>
+        <p><a href="patrickmaes1112@icloud.com">patrickmaes1112@icloud.com</a></p>
+        <p>720-818-2140</p>
+      </footer> 
     </React.StrictMode>
   );
 }
