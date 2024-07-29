@@ -1,0 +1,16 @@
+{
+    "slides": [
+        {
+            "src": "pers_photo.jpg",
+            "alt": "pers_photo"
+        },
+        {
+            "src": "grad_photo.jpg",
+            "alt": "grad_photo"
+        },
+        {
+            "src": "bruno.jpg",
+            "alt": "My dog Bruno"
+        }
+    ]
+}
