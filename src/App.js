@@ -3,8 +3,9 @@ import React from 'react';
 import Home from './Home'
 import About from './About'
 import Projects from './Projects'
-import Navbar from './components/Navbar.js'
-import Footer from './components/Footer.js'
+import Resume from './components/Resume'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import { Routes, Route, Outlet } from 'react-router-dom'
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projets" element={<Projects />} />
+        <Route path="/resume" element={<Resume />}/>
       </Routes>
       <Outlet />
       <Footer />

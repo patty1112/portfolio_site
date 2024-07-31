@@ -14,9 +14,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className='topnav-right'>
-          <a href="#home">About</a>
-          <a href="#news">Resume</a>
-          <a href="/contact">Contact</a>
+          <a href="/about">About</a>
+          <a href="/resume">Resume</a>
+          <a href="/contact">Home</a>
         </div>
       </div> 
   )
